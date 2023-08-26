@@ -1,15 +1,17 @@
 import React from 'react'
+import trolley from '../Assests/trolley.png'
+import phone from '../Assests/smartphone.png'
 
 const Home = () => {
   return (
     <div>
         <div className='add-to-cart'>
-            <img src="https://icons8.com/icon/42382/shopping-cart" alt="Error"/>
+        <img src={trolley} alt="Cart"/>
         </div>
       <h1>Home Component</h1>
       <div className='cart-wrapper'>
         <div className='img-wrapper item'>
-            <img src="https://source.unsplash.com/featured/300x201" alt="Error"/>
+            <img src={phone} alt="Phone"/>
         </div>
         <div className='text-wrapper'>
             <span>
